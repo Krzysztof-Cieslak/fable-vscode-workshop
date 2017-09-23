@@ -17,6 +17,18 @@
         {
           "command": "extension.sayHello",
           "title": "Hello World"
+        },
+        {
+          "command": "extension.sayHello2",
+          "title": "Hello World - question"
+        },
+        {
+          "command": "extension.sayHelloInput",
+          "title": "Hello World - input"
+        },
+        {
+          "command": "extension.sayHelloOutputChannel",
+          "title": "Hello World - output"
         }
       ],
       "languages": [

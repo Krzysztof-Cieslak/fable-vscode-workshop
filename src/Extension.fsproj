@@ -15,6 +15,8 @@
     <None Include="paket.references" />
     <Compile Include="UserInteractions.fs" />
     <Compile Include="LanguageFeatures.fs" />
+    <Compile Include="Diagnostics.fs" />
+
     <Compile Include="extension.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />

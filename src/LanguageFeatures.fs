@@ -59,3 +59,26 @@ let activate (context : vscode.ExtensionContext) =
     |> context.subscriptions.Add
 
     ()
+
+
+// List of all providers:
+// * CodeActions - the "yellow bulb" actions, implemented in Ionide with error parsing, FSharpLint hints, pattern match case generation, adding open namespaces
+// * CodeLensProvider - providing code lenses, implemented in Ionide to display function signatures
+// * CompletionItemProvider - autocomplete,implemented in Ionide
+// * DefinitionProvider - go-to-definition, peak definition, implemented in Ionide
+// * DocumentFormattingEditProvider - format document, not implemented in Ionide
+// * DocumentHighlightProvider - highlights usages of same symbol in the file, implemented in Ionide
+// * DocumentLinkProvider - detects links in the editor, not implemented in Ionide
+// * DocumentRangeFormattingEditProvider - format selected text, not implemented in Ionide
+// * DocumentSymbolProvider - shows all symbols defined in file, implemented in Ionide
+// * HoverProvider - tooltips, implemented by Ionide
+// * ImplementationProvider - go-to-implementation, not implemented by Ionide
+// * OnTypeFormattingEditProvider - real time formatting, not implemented in Ionide
+// * ReferenceProvider - find references, implemented in Ionide
+// * RenameProvider - rename, implemented in Ionide
+// * SignatureHelpProvider - shows signature helpers, implemented in Ionide
+// * TypeDefinitionProvider - go-to-type-definition, not implemented in Ioide
+// * WorkspaceSymbolProvider - go-to-symbol in workspace, implemented in Ionide
+// * TreeDataProvider - create additional tree views in Explorer panel, implemented in Ionide for project explorer
+// * TaskProvider - automatic task detection, not implemented in Ionide
+// * TextDocumentContentProvider - displaying custom text content in editor, implemented in Ionide for failed project parsing diagnostics
